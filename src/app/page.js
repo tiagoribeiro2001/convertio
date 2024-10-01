@@ -11,7 +11,7 @@ export default function Home() {
           files between different formats! We support a wide variety of file
           types, such as images, audio and video. With an intuitive interface,
           fast and secure conversions, we guarantee that your files will retain
-          their original quality. There's no need to install additional software
+          their original quality. There&apos;s no need to install additional software
           - everything is done online, in just a few clicks.
         </p>
       </div>
