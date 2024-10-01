@@ -39,7 +39,7 @@ function Navbar() {
         <Link href="https://github.com/tiagoribeiro2001/convertio">
           <Button
             variant="default"
-            className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
+            className="items-center hidden gap-2 bg-blue-600 rounded-full w-fit md:flex"
             size="lg"
           >
             <span>Code</span>

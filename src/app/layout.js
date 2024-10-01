@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
+import { Inter } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Convertio",
@@ -13,11 +15,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <Navbar/>
-        <Toaster/>
+      <body className={inter.className}>
+        <Navbar />
+        <Toaster />
         <div className="pt-32 min-h-screen lg:pt-36 2xl:pt-44 container max-w-4xl lg:max-w-6xl 2xl:max-w-7xl">
-        {children}
+          {children}
         </div>
       </body>
     </html>
