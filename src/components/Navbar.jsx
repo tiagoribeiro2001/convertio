@@ -3,13 +3,6 @@
 import React, { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import {
-  Sheet,
-  SheetHeader,
-  SheetTrigger,
-  SheetDescription,
-  SheetContent,
-} from "./ui/sheet";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./ui/button";

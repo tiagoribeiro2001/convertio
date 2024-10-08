@@ -1,11 +1,9 @@
 import Dropzone from "@/components/Dropzone";
 import { Toaster } from "@/components/ui/toaster";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div className="h-screen w-full">
-      <Navbar />
       <Toaster />
 
       <div className="pt-32 space-y-12 px-12 xl:px-44 2xl:px-52">
