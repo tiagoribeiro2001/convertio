@@ -1,6 +1,6 @@
 function compressFileName(fileName) {
     // Define the maximum length for the substring
-    const maxSubstrLength = 18;
+    const maxSubstrLength = 10;
     // Check if the fileName is longer than the maximum length
     if (fileName.length > maxSubstrLength) {
       // Extract the first part of the fileName (before the extension)
